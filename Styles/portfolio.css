@@ -1,19 +1,23 @@
 /* Common shared styles */
 body{font-family: 'Open Sans',
-     sans-serif;}
+     sans-serif;
+     ;}
 /* Nav related styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
+ul{display: flex;}
 .nav-title{
 color: #181818;
 font-family: Open Sans;
 font-size: 45px;
 font-style: normal;
-/* font-weight: 800; */
+font-weight: 800;
 line-height: normal; 
+
 }
 .orange{
    color: #FD6E0A;
@@ -39,4 +43,23 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* Header styles */
+.header{
+    background-color: #FFF8F3;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+
+}
+.banner-greeting{
+
+}
+.profilep{
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+
 }
